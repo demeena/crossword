@@ -1,0 +1,160 @@
+input {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    font-weight: bold;
+    text-align: center;
+}
+.content {
+    max-width: 900px;
+   margin-top: 40px;
+}
+.conteinerOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteinerTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -195px;
+}
+.conteinerThree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -194px;
+}
+.conteinerFoo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -221px;
+}
+.conteinerFive {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -249px;
+}
+.conteinerSix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -138px;
+}
+.conteinerSeven {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -26px;
+}
+.conteinerEid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -138px;
+}
+.conteinerDv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -138px;
+}
+.conteinerTen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -194px;
+}
+.textcontent {
+    font-size: 15px;
+    margin-top: 50px;
+
+}
+
+@media all and (max-width:600px) {
+    .content {
+        max-width: 350px;
+        margin-top: 20px;
+    }
+    input {
+        width: 10px;
+        height: 10px;
+        background-color: red;
+        font-weight: bold;
+        text-align: center;
+    }
+    .conteinerOne{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .conteinerTwo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -125px;
+    }
+    .conteinerThree{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -125px;
+    }
+    .conteinerFoo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -143px;
+    }
+    .conteinerFive {
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-left: -159px;
+    }
+    .conteinerSix {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -86px;
+    }
+    .conteinerSeven {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -14px;
+    }
+    .conteinerEid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -87px;
+    }
+    .conteinerDv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -87px;
+    }
+    .conteinerTen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -123px;
+    }
+    .textcontent {
+       font-size: 8px;
+       margin-left: 30px;
+       margin-bottom: 10px;
+    
+    }
+    p{
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+}
